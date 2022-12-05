@@ -22,4 +22,10 @@ public class EmployeeController {
         return "Welcome to search Page";
     }
 
+
+    @GetMapping("/edit")
+    public String EmployeeEdit(){
+        return "Welcome to edit page";
+    }
+
 }
